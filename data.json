@@ -1,0 +1,50 @@
+{
+  "subjects": [
+    {
+      "subject_id": "aa9880b7",
+      "name": "Mathematics",
+      "color": "white"
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "28c210d7",
+      "title": "Algebra HW",
+      "subject": "Mathematics",
+      "due_date": "2026-08-12",
+      "priority": "High",
+      "status": "Pending",
+      "notes": "",
+      "created_at": "2026-08-12 21:56"
+    },
+    {
+      "task_id": "84c365d3",
+      "title": "Calculus Test",
+      "subject": "Mathematics",
+      "due_date": "2026-08-13",
+      "priority": "Medium",
+      "status": "Pending",
+      "notes": "",
+      "created_at": "2026-08-12 21:56"
+    },
+    {
+      "task_id": "e2fd5a93",
+      "title": "Old task",
+      "subject": "Mathematics",
+      "due_date": "2026-08-11",
+      "priority": "Low",
+      "status": "Pending",
+      "notes": "",
+      "created_at": "2026-08-12 21:56"
+    }
+  ],
+  "sessions": [
+    {
+      "session_id": "357b4ab0",
+      "subject": "Mathematics",
+      "date": "2026-08-12",
+      "duration_minutes": 90,
+      "notes": "Chapter 3"
+    }
+  ]
+}
