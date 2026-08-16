@@ -1,49 +1,138 @@
-# 📖 Study Planner
+# 📚 Study Planner
 
-A fully-featured command-line study planner built in Python.
+A web-based **Study Planner application** built with **Python and Streamlit** to help students organize their academic tasks, subjects, study sessions, and monitor their overall progress.
 
-## Features
+## 🚀 Features
 
-| Feature | Details |
-|---|---|
-| **Subject management** | Add and remove subjects |
-| **Task management** | Add tasks with title, subject, due date, priority, and notes |
-| **Task filtering** | View all / by subject / today / this week / overdue / by status |
-| **Task updates** | Edit title, due date, priority, status, notes |
-| **Mark complete** | Quickly mark tasks as done |
-| **Study sessions** | Log study sessions with duration |
-| **Session filtering** | View all / by subject / today / this week |
-| **Progress overview** | Per-subject progress bar, stats, and total study time |
-| **Persistent storage** | All data saved to `data.json` automatically |
-| **Coloured CLI** | ANSI-coloured interface with overdue/priority highlights |
+### 📊 Dashboard
 
-## Requirements
+* Overview of total tasks
+* Completed and pending tasks
+* Overdue tasks
+* Tasks due today
+* Total study time
+* Subject-wise progress
+* Recent study activity
 
-- Python 3.10+ (uses `X | None` union syntax)
-- No third-party packages required
+### ✅ Task Management
 
-## Running
+* Add new tasks
+* Edit existing tasks
+* Delete tasks
+* Set task priority
+* Set due dates
+* Set task status
+* Add notes
+* Filter tasks by status, subject, and time range
+* Mark tasks as completed
 
-```bash
-cd study_planner
-python main.py
-```
+### ⏱️ Study Sessions
 
-## Project Structure
+* Log study sessions
+* Select subject and date
+* Record study duration
+* Add study notes
+* View session history
+* Filter sessions by subject
+* Track total study time
 
-```
-study_planner/
-├── main.py       # CLI entry point and all menu actions
-├── models.py     # Task, Subject, StudySession dataclasses
-├── storage.py    # JSON load/save
-├── display.py    # ANSI-coloured print helpers
-├── data.json     # Auto-created on first run
+### 📖 Subject Management
+
+* Add subjects
+* View subjects
+* Remove subjects
+* View subject-related tasks and study sessions
+
+### 📈 Progress Tracking
+
+* Overall task completion
+* Subject-wise progress
+* Completed, pending, in-progress and overdue tasks
+* Total study time
+* Study session statistics
+
+## 🛠️ Technologies Used
+
+* **Programming Language:** Python
+* **Web Framework:** Streamlit
+* **Data Storage:** JSON (`data.json`)
+* **Version Control:** Git & GitHub
+* **Deployment:** Streamlit Community Cloud
+
+## 📁 Project Structure
+
+```text
+study-planner/
+│
+├── app.py
+├── models.py
+├── storage.py
+├── data.json
+├── requirements.txt
 └── README.md
 ```
 
-## Usage
+## ⚙️ Installation
 
-1. **Add a subject** first (e.g. "Mathematics", "History")
-2. **Add tasks** under that subject with a due date and priority
-3. **Log study sessions** to track time spent
-4. **Check progress** for a per-subject overview
+Clone the repository:
+
+```bash
+git clone https://github.com/anubhavgahlout17/study-planner.git
+```
+
+Open the project directory:
+
+```bash
+cd study-planner
+```
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+## ▶️ Run the Application
+
+Start the Streamlit application using:
+
+```bash
+streamlit run app.py
+```
+
+The application will open in your browser at:
+
+```text
+http://localhost:8501
+```
+
+## 🌐 Live Application
+
+The project is deployed using **Streamlit Community Cloud**.
+
+**Live Demo:**
+https://anubhavgahlout17-study-planner-app-ubvstr.streamlit.app/
+
+## 🎯 Project Objective
+
+The objective of Study Planner is to provide students with a centralized platform for organizing academic tasks, managing subjects, recording study sessions, and monitoring study progress.
+
+## 📌 Future Scope
+
+The application can be further enhanced with:
+
+* User authentication
+* Study reminders and notifications
+* Calendar integration
+* Daily and weekly study goals
+* Advanced analytics and charts
+* Mobile application
+* Cloud database
+* AI-based study recommendations
+
+## 👨‍💻 Author
+
+**Anubhav Gahlout**
+
+Uttaranchal University, Dehradun
+Department of Computer Applications
